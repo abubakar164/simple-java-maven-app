@@ -1,0 +1,217 @@
+<html>  
+<head>
+<title>Welcome ra</title>
+<style>
+section{  
+border:1px solid pink;  
+padding:10px;  
+margin:10px;  
+}  
+/* The below style gets applied to body
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: pink;
+}
+/* Following container class used padding for generate space around container
+.container {
+    padding: 50px;
+  background-color: lightblue;
+}
+/* The following style applied to all tags wit input type as text
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+div {
+            padding: 10px 0;
+    }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+</style>
+
+</head>
+<body> 
+Enter your favorite cricket player: Press any character<br />    <input type="text" id="favCktPlayer" list="CktPlayers">  
+ <datalist id="CktPlayers">  
+ <option value="Sachin Tendulkar">   <option value="Brian Lara">  
+ <option value="Jacques Kallis">    <option value="Ricky Ponting">   
+ <option value="Rahul Dravid">    <option value="Shane Warne">   
+ <option value="Rohit Sharma">   <option value="Donald Bradman">   
+ <option value="Saurav Ganguly "> <option value="AB diVilliers">   
+ <option value="Mahendra Singh Dhoni"> <option value="Adam Gilchrist">  
+ </datalist>  
+<br>
+
+<div><dialog id="myFirstDialog" style="width:50%;background-color:#F4FFEF;border:1px dotted black;">  
+<p><q>I am so clever that sometimes I don't understand a single word of what I am saying.   
+</q> - <cite>Oscar Wilde</cite></p>  
+<button id="hide" onclick="closeDialog()">Close</button>  
+</dialog>  
+<button id="show" onclick= "showDialog()">Show Dialog</button>  
+</div>
+<!-- JavaScript to provide the "Show/Close" functionality -->  
+<script type="text/JavaScript">  
+function showDialog(){
+document.getElementById('myFirstDialog').show();
+}
+function closeDialog(){
+document.getElementById('myFirstDialog').close();
+}
+</script>
+ <br>
+ <audio controls>  
+<source src="koyal.mp3" type="audio/mpeg">  Your browser does not support the html audio tag.  
+</audio> <br>
+
+ 
+<font color="blue">Text with normal size and default face</font> 
+<font size="5" color="green">Text with Increased size and default face</font>
+<font size="5" color="green">Text with Increased size and default face</font>
+<font color="red" face="cursive">Text with Changed face</font>
+<hr>
+<p>I am leaning HTML</p>
+<hr>
+<P>Next I am <i>going to learn CSS and Java </i>script which enhance my web page</p>
+
+<iframe src="https://www.google.com/" height="300" width="400"></iframe>
+
+
+<footer>  
+<p>Posted by: Chenna Rao Mittapalli<address> xxxx, plot no. 6, near MMX Mall,Mohan Nagar, Ghaziabad Pin no. 201007 </address>   
+<p>Contact information:   <a href="mailto:xxyyzz@gmail.com">xxyyzz@gmail.com</a>.  
+</p>  
+</footer> 
+
+<ol type="A">   
+ <li>Aries</li>  
+ <li>Bingo</li>  
+ <li>Leo</li>  
+ <li>Oracle</li>  
+</ol>
+
+<menu>  
+ <li>Home</li>  
+ <li>Registration</li>  
+ <li>Contact-us</li>  
+ <li>About-us</li> 
+ </menu>
+
+<nav>  
+    <a href="#">Home</a> |  
+    <a href="#">Courses</a> |  
+    <a href="#">About-us</a> |  
+    <a href="#">Contact-us</a> |  
+ </nav> 
+<br>
+
+<object height="250" width="500" data="https://www.youtube.com/embed/qz0aGYrrlhU"></object>
+<br><br>
+
+<select>
+<optgroup label="Laptop Maufacturur">  
+        <option value="dell">Dell</option>  
+        <option value="hp">HP</option>  
+        <option value="lenovo">Lenovo</option>  
+</optgroup>  
+<optgroup label="Mobile Manufacturer">  
+        <option value="apple">Apple</option>  
+        <option value="nokia">Nokia</option>  
+        <option value="samsung">Samsung</option>  
+</optgroup> 
+</select><br>
+
+<picture>  
+    <source srcset="C:\Users\abubakar.m\TRAINING\WEB TECHNOLOGY\HTML\HTML Exercise\Group EVM\Images\C.jpg" media="(min-width: 750px)">  
+    <source srcset="C:\Users\abubakar.m\TRAINING\WEB TECHNOLOGY\HTML\HTML Exercise\Group EVM\Images\Java.jfif" media="(min-width: 450px)">  
+    <img srcset="C:\Users\abubakar.m\TRAINING\WEB TECHNOLOGY\HTML\HTML Exercise\Group EVM\Images\Linux.jfif" alt="default image" style="width: auto;">  
+</picture> 
+<br>
+
+<script>  
+var gvalue=1;  
+function abc(){  
+ var progressExample = document.getElementById ('progress-javascript-example');  
+     setInterval (function ()  
+    {   
+                 if(gvalue<100){  
+                    gvalue++;  
+                    progressExample.value =gvalue;    
+                  }  
+                 abc();              
+      }, 1000);  
+}  
+</script>  
+<progress id="progress-javascript-example" min="1" max="100"></progress>    
+<br/><br/>  
+<button onclick="abc()">click me</button>
+<br>
+<p><s>The last date of apply for online classes is 12/02/2019</s></p>  
+<p>The last date of apply for online classes is 13/03/2019</p> 
+<br>
+<script type="text/javascript">  
+function msg(){  
+ alert("Hello …user !");  
+}  
+</script>
+<button onclick="msg()">Message</button><br>
+
+<h2> Indian Leader</h2>  
+<section>  
+<h3> Jawaharlal Nehru </h3>  
+<p> Jawaharlal Nehru was the first Prime Minister of India and a central figure in   
+Indian politics.</p>  
+</section>  
+<section>  
+<h3>Subhas Chandra Bose </h3>  
+<p>Subhas Chandra Bose was an Indian nationalist whose attempt during World War II to rid India</p>  
+</section>  
+
+<video controls="controls" height="200" width="300">  
+    <source src="flower.webm" type="video/webm" >  
+    <source src="flower.mp4" type="video/mp4">  
+    Your browser does not support the HTML5 video element.  
+</video> <br>
+
+<p>We open our shop at <time>09:00</time> am.</p>  
+<p>The business meeting is scheduled on <time datetime="2009-02-18">next wednesday</time>.</p>  
+<p>The wedding of Salman's sister was scheduled  at <time datetime="2014-11-19 T0 7:00-09:00">7pm last wednesday </time>.</p> 
+<br>
+
+<table border="4" bordercolor="green"> 
+<tr>
+<td> It is a 1st Cell of 1st row in the 1st Table. </td>
+<td> It is a 2nd Cell of 1st row in the 1st Table.
+<table border="6" bordercolor="blue">
+<tr><td> It is a 1st Cell of 1st row in the 2nd Table. </td></tr>
+<tr><td> It is a 2nd Cell of 2nd row in the 2nd Table. </td></tr>
+</table>
+</td>
+</tr>
+<tr><td> It is a 3rd Cell of 2nd row in the 1st Table. </td>
+<td> It is a 4th Cell of 2nd row in the 1st Table. </td>
+</tr>
+</table>
+<br>
+
+<div class="container"><center><h1> Registration Form</h1> </center><hr>
+<label> Firstname: </label> <input type="text" name="firstname" placeholder= "Firstname" size="15" required /> 
+<label> Middlename: </label><input type="text" name="middlename" placeholder="Middlename" size="15" required /> 
+<label> Lastname: </label>  <input type="text" name="lastname" placeholder="Lastname" size="15" required /> 
+<div>
+<label> Gender :</label>
+<br>
+<input type="radio" value="Male" name="gender" checked > Male 
+<input type="radio" value="Female" name="gender"> Female 
+</div>
+<!-- The following tag input uses the type attribute which specifies the image, and the src attribute for specifying the path of an image-->
+<input type="image" src="https://www.freepngimg.com/thumb/submit_button/25497-9-submit-button-photos.png" height= "48" name="submit" alt="submit"/>
+</body>
+</html>
